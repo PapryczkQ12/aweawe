@@ -85,6 +85,7 @@ if ('serviceWorker' in navigator) {
       console.log('Rejestracja Service Workera nie powiodła się:', error);
     });
 }
+
 let deferredPrompt;
 
 window.addEventListener('beforeinstallprompt', (e) => {
